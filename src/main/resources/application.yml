@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: payroll-timesheet
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: false
+
+server:
+  port: 8080
+
+payroll:
+  external-time-tracking:
+    import-interval-ms: 15000
+    demo-company-id: demo-firma-1

@@ -1,0 +1,8 @@
+# Maven build output (compiled classes, JARs, reports)
+/target/
+
+# Compiled classes outside target (e.g. IDE output)
+**/*.class
+
+# IntelliJ IDEA
+.idea/
